@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Navigate to the repository root
+cd "$(git rev-parse --show-toplevel)"
+
+# Run the SonarQube Scanner
+sonar-scanner
+
